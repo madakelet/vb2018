@@ -78,8 +78,16 @@ namespace vb2018_0413
             bool van = j < hossz;
             string van_e = van ? "" : "nem";
             
-            Console.WriteLine($"8. feladat: A megadott város {van_e} VB helyszín");
+            Console.WriteLine($"8. feladat: A megadott város {van_e} VB helyszín.");
 
+            //9
+
+            HashSet<string> hanyVaros = new HashSet<string>();
+            foreach (Stadion stadion in stadionok)
+            {
+                hanyVaros.Add(stadion.Varos);
+            }
+            Console.WriteLine($"9. feladat: {hanyVaros.Count} különböző városban voltak mérkőések.");
             Console.ReadLine();
 
         }
