@@ -1,0 +1,7 @@
+C:\Users\Adi\source\repos\vb2018_0413\vb2018_0413\bin\Debug\vb2018_0413.exe.config
+C:\Users\Adi\source\repos\vb2018_0413\vb2018_0413\bin\Debug\vb2018_0413.exe
+C:\Users\Adi\source\repos\vb2018_0413\vb2018_0413\bin\Debug\vb2018_0413.pdb
+C:\Users\Adi\source\repos\vb2018_0413\vb2018_0413\obj\Debug\vb2018_0413.csprojAssemblyReference.cache
+C:\Users\Adi\source\repos\vb2018_0413\vb2018_0413\obj\Debug\vb2018_0413.csproj.CoreCompileInputs.cache
+C:\Users\Adi\source\repos\vb2018_0413\vb2018_0413\obj\Debug\vb2018_0413.exe
+C:\Users\Adi\source\repos\vb2018_0413\vb2018_0413\obj\Debug\vb2018_0413.pdb

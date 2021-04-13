@@ -20,7 +20,14 @@ namespace vb2018_0413
                 stadionok.Add(new Stadion(sor));
             }
 
+            //3
 
+            int hossz = stadionok.Count;
+            Console.WriteLine($"3. feladat: Stadionok száma: {hossz}");
+
+
+
+            Console.ReadLine();
         }
     }
 }
