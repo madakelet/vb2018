@@ -58,6 +58,16 @@ namespace vb2018_0413
 
             Console.WriteLine($"6. feladat: Két néven is ismert stadionok száma: {alterStadionok}");
 
+            //7
+
+            bool jo = false;
+            do
+            {
+                Console.Write("7. feladat: Kérem a város nevét: ");
+                string bekertNev = Console.ReadLine();
+                jo = bekertNev.Length > 2;
+            } while (!jo);
+
             Console.ReadLine();
 
         }
