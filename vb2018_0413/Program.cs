@@ -46,7 +46,20 @@ namespace vb2018_0413
                 osszesFHely += stadion.Ferohely;
             }
             Console.WriteLine($"5. feladat: Átlagos férőhelyszám: {(osszesFHely*1.0)/hossz:F1}");
+
+            //6
+
+            int alterStadionok = 0;
+            foreach  (Stadion stadion in stadionok)
+            {
+                if(stadion.AlternativNev != "n.a.")
+                { alterStadionok++; }
+            }
+
+            Console.WriteLine($"6. feladat: Két néven is ismert stadionok száma: {alterStadionok}");
+
             Console.ReadLine();
+
         }
     }
 }
