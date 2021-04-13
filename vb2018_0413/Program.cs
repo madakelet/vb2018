@@ -61,12 +61,24 @@ namespace vb2018_0413
             //7
 
             bool jo = false;
+            string bekertNev;
             do
             {
                 Console.Write("7. feladat: Kérem a város nevét: ");
-                string bekertNev = Console.ReadLine();
+                bekertNev = Console.ReadLine();
                 jo = bekertNev.Length > 2;
             } while (!jo);
+
+
+            //8
+
+            int j = 0;
+            while(j < hossz && !(stadionok[j].Varos==bekertNev))
+            { j++; }
+            bool van = j < hossz;
+            string van_e = van ? "" : "nem";
+            
+            Console.WriteLine($"8. feladat: A megadott város {van_e} VB helyszín");
 
             Console.ReadLine();
 
