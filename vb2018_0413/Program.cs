@@ -38,7 +38,14 @@ namespace vb2018_0413
             Console.WriteLine($"\tStadion neve: {stadionok[minIndex].StadionNev}");
             Console.WriteLine($"\tFérőhely: {stadionok[minIndex].Ferohely}");
 
+            //5
 
+            int osszesFHely = 0;
+            foreach (Stadion stadion in stadionok)
+            {
+                osszesFHely += stadion.Ferohely;
+            }
+            Console.WriteLine($"5. feladat: Átlagos férőhelyszám: {(osszesFHely*1.0)/hossz:F1}");
             Console.ReadLine();
         }
     }
